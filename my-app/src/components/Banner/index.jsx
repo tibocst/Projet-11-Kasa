@@ -5,7 +5,6 @@ const LOGO = require('../../assets/logo.png');
 
 function Banner() {
 
-
     return (
       <div className='banner'>
         <div>

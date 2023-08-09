@@ -8,7 +8,7 @@ function FicheLogement() {
   console.log(currentLogement)
   return (
     <div className="ficheLogement">
-
+      
     </div>
   );
 }
