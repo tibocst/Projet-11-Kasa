@@ -1,8 +1,11 @@
-import Banner from "../Banner"
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <Banner />
+    <nav>
+      <Link to="/">Accueil</Link>
+      <Link to="/propos">A propos</Link>
+    </nav>
   )
 }
 
