@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Propos from './pages/Propos'
 import Header from './components/Header'
-import Error from './components/Error'
+import Error from './pages/Error'
 import FicheLogement from './pages/FicheLogement'
 import './styles/index.css'
 
