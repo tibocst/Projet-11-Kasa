@@ -1,0 +1,38 @@
+.collapse-header {
+    display: flex;
+    background-color: #FF6060;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    margin: 20px 0;
+}
+
+.collapse-header > h2 {
+    margin: 0;
+    color: white;
+    font-weight: inherit;
+    font-size: 1.2em;
+}
+
+.collapse-header-img {
+    width: 16px;
+    height: 8px;
+    transform: rotate(180deg);
+}
+
+.collapse-header-img_collapsed {
+    width: 16px;
+    height: 8px;
+}
+
+.collapse-description_hidden {
+    display: none;
+}
+
+.collapse-description > p {
+    font-size: 1em;
+    margin: inherit;
+    line-height: 1.5;
+    color: #FF6060;
+}
