@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    margin: 50px -100px 0px -100px;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footer > img {
+    height: 40px;
+    width: 122px;
+}
+
+.footer > p {
+    margin: 20px;
+    color: white;
+}

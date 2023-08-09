@@ -6,6 +6,7 @@ import Propos from './pages/Propos'
 import Header from './components/Header'
 import Error from './pages/Error'
 import FicheLogement from './pages/FicheLogement'
+import Footer from './components/Footer'
 import './styles/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,7 @@ root.render(
         <Route path="/ficheLogement/:id" element={<FicheLogement />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>
 );
