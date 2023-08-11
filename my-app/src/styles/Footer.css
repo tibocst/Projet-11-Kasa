@@ -1,4 +1,5 @@
 .footer {
+    left: 100px;
     display: flex;
     margin: 0px -100px;
     background-color: black;

@@ -10,7 +10,7 @@ function Collapse(props) {
   const [collapse, setCollapse] = useState(false)
 
   return (
-    <div>
+    <div className='collapse'>
       <div onClick={() => {collapse === true ? setCollapse(false) : setCollapse(true)}} className='collapse-header'>
         <h2>{title}</h2>
         <img className={collapse ? "collapse-header-img_collapsed" : "collapse-header-img"} src={CHEVRON} alt="chevron" />

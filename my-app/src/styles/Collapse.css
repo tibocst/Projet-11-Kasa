@@ -1,3 +1,9 @@
+.collapse {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .collapse-header {
     display: flex;
     background-color: #FF6060;
@@ -5,7 +11,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
-    margin: 20px 0;
 }
 
 .collapse-header > h2 {

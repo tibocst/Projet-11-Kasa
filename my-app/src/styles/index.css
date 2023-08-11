@@ -3,6 +3,7 @@
 html {
     position: relative;
     min-height: 100%;
+    margin: auto;
 }
 
 body {
@@ -10,4 +11,9 @@ body {
     margin: 0 100px;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 179px;
+}
+
+#root:not(.footer) {
+    max-width: 1400px;
+    margin: auto;
 }
