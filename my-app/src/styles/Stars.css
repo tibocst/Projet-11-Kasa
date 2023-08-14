@@ -4,5 +4,11 @@
 }
 
 .stars > img {
-    height: 15px;
+    height: 25px;
+}
+
+@media (max-width: 480px) {
+    .stars > img {
+        height: 15px;
+    }
 }

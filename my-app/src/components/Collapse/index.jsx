@@ -5,7 +5,7 @@ const CHEVRON = require('../../assets/chevron.png')
 
 function Collapse(props) {
   
-  const {title, description} = props
+  const {title, descriptions} = props
 
   const [collapse, setCollapse] = useState(false)
 
@@ -16,7 +16,7 @@ function Collapse(props) {
         <img className={collapse ? "collapse-header-img_collapsed" : "collapse-header-img"} src={CHEVRON} alt="chevron" />
       </div>
       <div className={collapse ? 'collapse-description' : 'collapse-description_hidden'}>
-        <p>{description}</p>
+        {typeof descriptions === 'string' ? <p>{descriptions}</p> : descriptions.map((description, index) => <p key={index}>{description}</p>)}
       </div>
     </div>
   );

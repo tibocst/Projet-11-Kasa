@@ -7,9 +7,6 @@
 
 .banner > div {
     flex: 1;
-}
-
-.banner > div:nth-child(2) {
     display: flex;
     align-items: center;
 }
@@ -39,4 +36,26 @@
 .banner-nav > a:hover {
     color: #FF6060;
     text-decoration: underline;
+}
+
+@media (max-width: 780px) and (min-width: 480px) {
+    .banner-logo {
+        width: 145px;
+        height: 47px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-logo {
+        width: 120px;
+        height: 35px;
+    }
+
+    .banner > div:nth-child(2) {
+        flex-basis: 180px;
+    }
+
+    .banner-nav > a {
+        text-transform: uppercase;
+    }
 }

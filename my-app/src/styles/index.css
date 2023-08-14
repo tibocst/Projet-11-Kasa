@@ -17,3 +17,16 @@ body {
     max-width: 1400px;
     margin: auto;
 }
+
+@media (max-width: 780px) and (min-width: 480px) {
+    body {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 0 10px;
+    }
+    
+}

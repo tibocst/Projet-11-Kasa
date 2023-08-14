@@ -16,6 +16,8 @@
     height: 500px;
     overflow: hidden;
     border-radius: 20px;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .slideshow-div-img {
@@ -32,7 +34,33 @@
     object-fit: cover;
 }
 
+.slideshow-compteur {
+    position: absolute;
+    color: white;
+    font-size: 1.3em;
+}
+
 .slideshow-chevron_droit {
     position: absolute;
     right: 20px;
+}
+
+@media (max-width: 780px) and (min-width: 480px) {
+    .slideshow-div {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .slideshow-div {
+        height: 200px;
+    }
+
+    .slideshow-compteur {
+        font-size: 1em;
+    }
+
+    .slideshow-chevron_gauche, .slideshow-chevron_droit {
+        height: 30px;
+    }
 }
