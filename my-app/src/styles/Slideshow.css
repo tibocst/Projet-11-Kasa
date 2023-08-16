@@ -45,6 +45,10 @@
     right: 20px;
 }
 
+.slideshow-none {
+    display: none;
+}
+
 @media (max-width: 780px) and (min-width: 480px) {
     .slideshow-div {
         height: 300px;

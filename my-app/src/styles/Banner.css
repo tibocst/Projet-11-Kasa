@@ -28,12 +28,17 @@
     left: 931px;
 }
 
-.banner-nav > a {
+.banner-nav-a {
     color: #FF6060;
-    text-decoration: none;
+    text-decoration: inherit;
 }
 
-.banner-nav > a:hover {
+.banner-nav-a:hover {
+    color: #FF6060;
+    text-decoration: underline;
+}
+
+.banner-nav-a_underline {
     color: #FF6060;
     text-decoration: underline;
 }

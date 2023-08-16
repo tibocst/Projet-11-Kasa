@@ -4,23 +4,6 @@ import Card from '../../components/Card'
 import { logements } from '../../datas/logements'
 
 function Home() {
-
-
-  // const [data, setData] = useState(logements)
-
-  // useEffect(() => {
-  //   async function fetch() {
-  //     try {
-  //       const response = await fetch(`http://localhost:8000/logements`)
-  //       const { data } = await response.json()
-  //       data(data)
-  //     } catch (err) {
-  //       console.log(err)
-  //     } finally {
-  //     }
-  //   }
-  //   fetch()
-  // }, [])
   
   return (
     <div className="home">
